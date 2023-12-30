@@ -1,5 +1,6 @@
 <script>
     import Typewriter from 'svelte-typewriter'  
+    import { base } from '$app/paths';
   </script>
   
   <style>
@@ -29,12 +30,12 @@
     </div>
   
     <div class="text-center mt-8 opacity-80">
-      <a href="/" class="mt-4 mr-4 rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-200">REF CODES</a>
-      <a href="/news" class="mt-4 mr-4 rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-200">CS2 NEWS</a>
-      <a href="/giveaways" class="mt-4 mr-4 rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-200">GIVEAWAYS</a>
-      <a href="/videos" class="mt-4 mr-4 rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-200">CS2 VIDEOS</a>
-      <a href="/blog" class="mt-4 rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-200">BLOG POSTS</a>
-    </div>
+        <a href="{base}/" class="mt-4 mr-4 rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-200">REF CODES</a>
+        <a href="{base}/news" class="mt-4 mr-4 rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-200">CS2 NEWS</a>
+        <a href="{base}/giveaways" class="mt-4 mr-4 rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-200">GIVEAWAYS</a>
+        <a href="{base}/videos" class="mt-4 mr-4 rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-200">CS2 VIDEOS</a>
+        <a href="{base}/blog" class="mt-4 rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-200">BLOG POSTS</a>
+      </div>
   
           <div class="opacity-95 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-6 ml-5 mt-8 mr-5">
             <article class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80">
